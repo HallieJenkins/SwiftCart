@@ -1,3 +1,4 @@
+import { SplashScreen } from '@/screens/splash';
 import { useHeaderHeight } from '@react-navigation/elements';
 import * as React from 'react';
 import {
@@ -10,10 +11,6 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 export default function Screen() {
   return (
-    <View style={{ flex: 1 }}>
-      <View style={{ flex: 1, backgroundColor: 'white' }} />
-      <View style={{ flex: 1, backgroundColor: 'blue' }} />
-    </View>
-    
+    <SplashScreen />    
   );
 }
